@@ -92,8 +92,8 @@ int ReadFile(char* path){
 }
 
 int main(void){
-	//Dial = ReadFile("ex.txt");
-	//printf("Dial: [%d], Zeros: [%d], Pass: [%d], Total: [%d]\n",Dial,ZeroCount,PassZeroCount,ZeroCount + PassZeroCount);
+	Dial = ReadFile("ex.txt");
+	printf("Dial: [%d], Zeros: [%d], Pass: [%d], Total: [%d]\n",Dial,ZeroCount,PassZeroCount,ZeroCount + PassZeroCount);
 
 	ZeroCount = 0;
 	PassZeroCount = 0;
